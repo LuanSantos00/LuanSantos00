@@ -3,11 +3,12 @@
 [![Linkedin Badge](https://img.shields.io/badge/-Luan%20Santos-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luan-santos-997112208/)](https://www.linkedin.com/in/luan-santos-997112208/)
 [![Gmail Badge](https://img.shields.io/badge/-luancosmefilho@gmail.com-6633cc?style=flat-square&logo=Gmail&logoColor=white&link=mailto:luancosmefilho@gmail.com)](mailto:luancosmefilho@gmail.com)
 
-My name is Luan, I'm studying computer science (💻). 
-I like web development, front-end and back-end. And I also really like mobile development.
+* My name is Luan, I'm studying computer science (💻). 
+* I like web development, front-end and back-end. And I also really like mobile development.
 
 
-In my free time I like to read about technology, play football(⚽) and games online, watch youtube videos and series(📺).
+In my free time I like to read about technology, play football(⚽) and online games, watch videos and youtube (![image](https://user-images.githubusercontent.com/62774900/152166200-1d7e54f8-fe96-415b-91fb-d4ffc66bd4c6.png)
+📺).
 
 
 <div>
