@@ -7,8 +7,7 @@
 * I like web development, front-end and back-end. And I also really like mobile development.
 
 
-In my free time I like to read about technology, play football(⚽) and online games, watch videos and youtube (![image](https://user-images.githubusercontent.com/62774900/152166200-1d7e54f8-fe96-415b-91fb-d4ffc66bd4c6.png)
-📺).
+In my free time I like to read about technology, play football(⚽) and online games, watch videos youtube and series(📺).
 
 
 <div>
