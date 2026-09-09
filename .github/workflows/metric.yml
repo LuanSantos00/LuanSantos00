@@ -1,12 +1,11 @@
 name: Metrics
 
+# Sem gatilho de push: a própria Action comita o SVG, e um commit
+# feito com PAT dispara workflows novamente, gerando loop infinito.
 on:
   schedule:
     - cron: "0 9 * * *"   # todos os dias às 06:00 (Brasília)
-  workflow_dispatch:       # permite rodar manualmente
-  push:
-    branches:
-      - main
+  workflow_dispatch:       # execução manual
 
 permissions:
   contents: write
@@ -20,17 +19,14 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: LuanSantos00
           filename: github-metrics.svg
+          committer_message: "chore: update metrics [skip ci]"
           template: classic
           base: header, activity, community, repositories
           config_timezone: America/Sao_Paulo
           config_theme: dark
-
-          # Linguagens mais usadas
           plugin_languages: yes
           plugin_languages_details: percentage
           plugin_languages_limit: 8
           plugin_languages_ignored: html, css
-
-          # Calendário de commits dos últimos 6 meses
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
